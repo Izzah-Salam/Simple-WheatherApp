@@ -1,7 +1,9 @@
 const apiKey = "d3eb4753e8e957dd4c114803d283b46e";
 
 const WheatherData = document.getElementById("wheter-data");
+
 const inputCity = document.getElementById("City");
+
 const formEl = document.querySelector("form");
 
 formEl.addEventListener("submit", (event) => {
